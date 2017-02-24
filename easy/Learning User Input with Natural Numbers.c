@@ -1,12 +1,8 @@
 #include <stdio.h>
 
 int main(void) {
-  int i, sum = 0;
-  scanf("%d", &i);
-  while(i) {
-    sum += i;
-    i--;
-  }
-  printf("%d", sum);
+  int n;
+  scanf("%d", &n);
+  printf("%d", n++ * n / 2);
   return 0;
 }
